@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <script defer src="index.js"></script>
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+ 
+</head>
+<body>
+
+  <main class="container">
+    <div class="back-img">
+      <img src="./images/icon-star.svg" alt="Star Icon">
+    </div>
+    <h1>How did we do?</h1>
+    <p class="text">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+
+      <div class="ranking">
+        <div class="ranking-number" data-value="1" tabindex="0">1</div>
+        <div class="ranking-number" data-value="2" tabindex="0">2</div>
+        <div class="ranking-number" data-value="3" tabindex="0">3</div>
+        <div class="ranking-number" data-value="4" tabindex="0">4</div>
+        <div class="ranking-number" data-value="5" tabindex="0">5</div>
+      </div>
+
+      <button id="submit-btn">
+        <p>SUBMIT</p>
+      </button>
+
+
+      <!-- Popup de partage -->
+<div class="popupBackground">
+  <div class="popup">
+      <img src="./images/illustration-thank-you.svg" alt="thank you logo"> 
+      <span class="ranking-selected"></span>
+      <h1 class="popup-title">Thank you!</h1>
+      <p class="popup-message">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+    
+    
+  </div>
+</div>
+
+  </main>
+
+</body>
+</html>
